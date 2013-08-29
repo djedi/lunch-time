@@ -18,8 +18,6 @@
     $LOAD FONTS    
 \*------------------------------------*/
 
-@include font-face("Samantha Italic", "../fonts/samantha_italic_pro-webfont"); 
-@include font-face("Icons", "../fonts/icons");
 
 
 
@@ -51,7 +49,6 @@
 
 body{
     @include font-size($base-font-size);
-    font-family: $sans-serif;
 }
 
 
