@@ -24,7 +24,6 @@ var Vendor = new Schema({
     phone: String,
     notes: String,
     tags: [String],
-    notes: String
 });
 
 var MealSchema = new Schema({
