@@ -1,0 +1,96 @@
+/*------------------------------------*\ 
+    $CONTENTS    
+\*------------------------------------*/ 
+/**
+ * LOAD FONTS
+ * ICONS
+ * BASE SETTINGS
+ * COLORS
+ * HEADLINES
+ * LINKS
+*/
+
+
+
+
+
+/*------------------------------------*\ 
+    $LOAD FONTS    
+\*------------------------------------*/
+
+@include font-face("Samantha Italic", "../fonts/samantha_italic_pro-webfont"); 
+@include font-face("Icons", "../fonts/icons");
+
+
+
+
+
+/*------------------------------------*\ 
+    $ICONS    
+\*------------------------------------*/
+
+[data-icon]:before {
+    font-family: 'icons';
+    content: attr(data-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+/*------------------------------------*\ 
+    $BASE SETTINGS    
+\*------------------------------------*/
+
+body{
+    @include font-size($base-font-size);
+    font-family: $sans-serif;
+    color: $gray6;
+}
+
+
+
+
+/*------------------------------------*\ 
+    $COLORS    
+\*------------------------------------*/
+
+.gray4{ color: $gray4; }
+
+
+
+
+
+/*------------------------------------*\ 
+    $HEADLINES    
+\*------------------------------------*/
+
+@include headings(){
+
+}
+
+h1, .mega       { @include font-size($mega); }
+h2, .alpha      { @include font-size($alpha); }
+h3, .beta       { @include font-size($beta); }
+h4, .gamma      { @include font-size($gamma); }
+h5, .delta      { @include font-size($delta); }
+h6, .epsilon    { @include font-size($epsilon); }
+
+
+
+
+
+/*------------------------------------*\ 
+    $LINKS    
+\*------------------------------------*/
+
+a{
+    
+}
