@@ -52,7 +52,6 @@
 body{
     @include font-size($base-font-size);
     font-family: $sans-serif;
-    color: $gray6;
 }
 
 
@@ -62,7 +61,6 @@ body{
     $COLORS    
 \*------------------------------------*/
 
-.gray4{ color: $gray4; }
 
 
 
